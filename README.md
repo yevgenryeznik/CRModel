@@ -11,3 +11,11 @@ $$\boldsymbol{\eta}(x; \boldsymbol{\theta}) = \left\\{
 \pi_1(x; \boldsymbol{\theta}) &= \frac{\exp{(\theta_1+ + \theta_2 x)}}{1+\exp{(\theta_1+ + \theta_2 x)}}\frac{1}{1+\exp{(\theta_3+ + \theta_3 x)}} \\
 \pi_2(x; \boldsymbol{\theta}) &= \frac{\exp{(\theta_3+ + \theta_4 x)}}{1+\exp{(\theta_3+ + \theta_3 x)}}.
 \end{aligned}\right.$$
+
+Here, $x$ is a teratment dose, and 
+
+- $\pi_0(x; \theta)$ is a _**probability of no response**_ (neither efficacy no toxicity).
+- $\pi_1(x; \theta)$ is a _**probability of efficacy without toxicity**_.
+- $\pi_2(x; \theta)$ is a _**probability of toxicity**_.
+
+
